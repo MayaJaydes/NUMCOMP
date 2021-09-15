@@ -249,12 +249,14 @@ Wrote that in comments as well as named 2 test cases that could be used to verif
 2) If I put in 1 for everything, I should get 0 back (tested, worked)
 
 Problem 4:
-Opened Github desktop and created a local repository for my NUMCOMP folder.
-Commited w/ comment Handin folder (which I moved 0-PHZ3150-MayaSosa-Log into)
-Previously I only created an individual repository for HW3 rather than adding my NUMCOMP and main Handin folder.
-Deleted HW3_Repository that was under .git due to already having a copy in my main NUMCOMP folder (which I just put under .git)
+In Atom (what is used for this log) selected 'create repository' and initialized it
+Logged into Github on Atom and opened Github Desktop
+
+Some of you had problems with setting up GitHub, starting a repositoryfor your handinfolder and/or naming
+correctly your log, files and screenshots for homework2and 3.If so, explain in your log,in detail,all
+changes you have doneto correct these errors (e.g., how did you rename your log file and why, how did you start
+a new repository, added files and committed them, etc). Remember that these notes should appear as part of
+your HW4 log. Do notgo back and alter any of the HW2, HW3 entries of your log!
 
 Problem 5:
-Saved Jupyter notebook and closed out of Jupyter session. Checked to make sure HW4_MayaSosa.ipynb was saved under ~Downloads\NUMCOMP\Handin\HW4_MayaSosa along with other .py file created and once saved will copy this log into HW4_MayaSosa as well.
-Will right click on HW4_MayaSosa folder and zip file. Then open Github Desktop and find changes made to Handin folder and commit w/ comment.
-After taking a screenshot of committed changed I will also add it to the zip file before submitting on webcourses to HW4.
+Copy Jupyter notebook and zip, Commit/push to github
