@@ -260,3 +260,113 @@ Will right click on HW4_MayaSosa folder and zip file. Then open Github Desktop a
 After taking a screenshot of committed changed I will also add it to the zip file before submitting on webcourses to HW4.
 
  *****OUT Wed Sept 15 11:21:09 EST 2021
+
+ *****IN Thurs Sept 16 17:28:54 EST 2021
+
+ Start HW 5
+
+ Problem 1:
+ Files > ~Downloads\NUMCOMP\Handin > New Folder (renamed HW5_MayaSosa)
+ Windows Start > Jupyter Notebooks > ~Downloads\NUMCOMP\Handin\HW5_MayaSosa > New > Python 3 Notebook (renamed HW5_MayaSosa)
+ Opened Github desktop, pushed to Github
+ Using heading/markdown in first cell wrote name, assignment #, and date and in second cell used markdown to write 'Problem 1'
+ In next cell imported numpy
+
+ Problem 2:
+ Used markdown to write 'Problem 2'
+ Emailed prof because I don't understand the difference between lists and arrays
+ Found out I could do 'list(np.arange())' or 'list(range())' to create a list for velocity and time from x to y with a step of z.
+ Created lists according to instructions and printed both as well as the 3rd to 5th and 8th element from the velocity list
+ Copied HW4_Accelectation_Function from HW4_MayaSosa to HW5_MayaSosa folder and from it imported acceleration function into current notebook
+ Used help on acceleration function to recall inputs of function
+ Used imported function to calculate acceleration of given velocity/time pairs (elements 3-4, 4-5, and 5-8 of each list) and wrote an informative statement with the answers
+ Checked results with calculator
+ Changed 5th element in velocity to 40 and printed new velocity list
+
+ Problem 3:
+ Used markdown to write 'Problem 3'
+ Created numpy array x from 1 to and including 100 with a step of 0.1
+ Printed shape (1001) and type of x (<class 'numpy.ndarray'>)
+ Printed x and then printed it's max, min, and mean in one line (100, 0, 50)
+ Printed x-52
+ Printed 0.05 * x
+
+ Problem 4:
+ Used markdown to write 'Problem 4'
+ Created list titled student_h with values 5.01, 4.10, 6.02, 5.07, and 6.11
+ Created function to return a list of each height in list form [m,cm] called ft_to_m_cm and wrote informative docstring
+ To be continued
+
+ Problem 5:
+ Used markdown to write 'Problem 5'
+ Created function in a separate file titled 'displacement' that calculates total displacement of a body during a time interval using initial speed and a constant acceleration and wrote informative docstring
+ Saved as Displacement_Function.py file in ~Downloads\NUMCOMP\Handin\HW5_MayaSosa
+ Imported function into main HW file
+ Made lists for given values of initial speed, acceleration, and time and used it to calculate total displacement for each printed with informative statements
+ Checked calculations with a calculator separately to ensure they were correct.
+
+ Saved log and will finish HW5 later
+
+ *****OUT Fri Sept 17 10:22:03 EST 2021
+
+ *****IN Tues Sept 21 21:20:17 EST 2021
+
+ Continuing HW 5
+ From previous log:
+
+ " Problem 1:
+  Files > ~Downloads\NUMCOMP\Handin > New Folder (renamed HW5_MayaSosa)
+  Windows Start > Jupyter Notebooks > ~Downloads\NUMCOMP\Handin\HW5_MayaSosa > New > Python 3 Notebook (renamed HW5_MayaSosa)
+  Opened Github desktop, pushed to Github
+  Using heading/markdown in first cell wrote name, assignment #, and date and in second cell used markdown to write 'Problem 1'
+  In next cell imported numpy
+
+  Problem 2:
+  Used markdown to write 'Problem 2'
+  Emailed prof because I don't understand the difference between lists and arrays
+  Found out I could do 'list(np.arange())' or 'list(range())' to create a list for velocity and time from x to y with a step of z.
+  Created lists according to instructions and printed both as well as the 3rd to 5th and 8th element from the velocity list
+  Copied HW4_Accelectation_Function from HW4_MayaSosa to HW5_MayaSosa folder and from it imported acceleration function into current notebook
+  Used help on acceleration function to recall inputs of function
+  Used imported function to calculate acceleration of given velocity/time pairs (elements 3-4, 4-5, and 5-8 of each list) and wrote an informative statement with the answers
+  Checked results with calculator
+  Changed 5th element in velocity to 40 and printed new velocity list
+
+  Problem 3:
+  Used markdown to write 'Problem 3'
+  Created numpy array x from 1 to and including 100 with a step of 0.1
+  Printed shape (1001) and type of x (<class 'numpy.ndarray'>)
+  Printed x and then printed it's max, min, and mean in one line (100, 0, 50)
+  Printed x-52
+  Printed 0.05 * x
+
+  Problem 4:
+  Used markdown to write 'Problem 4'
+  Created list titled student_h with values 5.01, 4.10, 6.02, 5.07, and 6.11
+  Created function to return a list of each height in  list form [m,cm] called ft_to_m_cm and wrote informative docstring
+  To be continued
+
+  Problem 5:
+  Used markdown to write 'Problem 5'
+  Created function in a separate file titled 'displacement' that calculates total displacement of a body during a time interval using initial speed and a constant acceleration and wrote informative docstring
+  Saved as Displacement_Function.py file in ~Downloads\NUMCOMP\Handin\HW5_MayaSosa
+  Imported function into main HW file
+  Made lists for given values of initial speed, acceleration, and time and used it to calculate total displacement for each printed with informative statements
+  Checked calculations with a calculator separately to ensure they were correct."
+
+  Problem 4 (cont.):
+  Imported math (import math)
+  Looked up conversions of ft to in and then in to m to create function that will return the inputted number in feet as meters
+  Researched how to round a number down using math (math.floor) and created another function finding cm
+  Put return [math.floor(m), 'm', math.ceil(cm), 'cm'] so that cm rounds up as stated
+  In next cell used format 'print('Student x has a height of', ft_to_m_cm(student_h[x-1]))' for all 5 elements in list student_h
+  Checked results with calculator
+
+ Problem 6:
+ Saved finalized Jupyter Notebook into HW5_MayaSosa folder
+ Pushed/Commited to Github through Github desktop with comment 'HW5_commit'
+ Took a screenshot of pushed file on Github desktop, renamed it appropriately, and put into HW5_MayaSosa Folder
+ Will save log as well and copy into HW5_MayaSosa before right-clicking file > Send to > Compressed (zip folder)
+ Will push to Github once more with screenshot and submit zip folder onto Webcourses
+
+ *****OUT Tues Sept 21 10:29:48 EST 2021
