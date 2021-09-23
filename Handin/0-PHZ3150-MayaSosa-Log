@@ -369,4 +369,24 @@ After taking a screenshot of committed changed I will also add it to the zip fil
  Will save log as well and copy into HW5_MayaSosa before right-clicking file > Send to > Compressed (zip folder)
  Will push to Github once more with screenshot and submit zip folder onto Webcourses
 
- *****OUT Tues Sept 21 10:29:48 EST 2021
+ *****OUT Tues Sept 21 22:29:48 EST 2021
+
+ *****IN Thurs Sept 23 13:41:23 EST 2021
+
+ Start Midterm Project
+
+ Problem 1:
+ Files > Downloads\NUMCOMP\Handin\Midterm > New folder ; Renamed folder 'Midterm'
+ Opened Jupyter Notebooks (Windows start > Jupyter Notebook)
+ Made new notebook in Downloads\NUMCOMP\Handin\Midterm and renamed it 'Midterm_MayaSosa'
+ Saved and pushed to Github (will do regularly)
+ In first cell used markdown to write name, assignment number, and date due
+ In next cell used markdown to write 'Problem 1:'
+ Imported numpy
+
+ Problem 2:
+A) Used markdown to write 'Problem 2:'
+    Wrote sentence informing user to choose and input from the following list a start/end city for their trip
+B) Asked users to input their start and target city in format (Start_City, Target_City)
+C) Made list of given cities that users will choose from titled city_list and let users know by printing "Cities to choose from: [city_list]"
+D)
