@@ -445,3 +445,71 @@ Will right-click on HW6_MayaSosa folder and select Send to < Compressed (zip) fo
 Will turn in on Webcourses
 
 *****OUT Wed Sept 29 02:07:35 EST 2021
+
+*****IN Mon Oct 4 12:09:56 EST 2021
+
+Continuing Midterm Project
+From last Midterm Entry:
+"Problem 1:
+Files > Downloads\NUMCOMP\Handin\Midterm > New folder ; Renamed folder 'Midterm'
+Opened Jupyter Notebooks (Windows start > Jupyter Notebook)
+Made new notebook in Downloads\NUMCOMP\Handin\Midterm and renamed it 'Midterm_MayaSosa'
+Saved and pushed to Github (will do regularly)
+In first cell used markdown to write name, assignment number, and date due
+In next cell used markdown to write 'Problem 1:'
+Imported numpy
+
+Problem 2:
+A) Used markdown to write 'Problem 2:'
+   Wrote sentence informing user to choose and input from the following list a start/end city for their trip
+B) Asked users to input their start and target city in format (Start_City, Target_City)
+C) Made list of given cities that users will choose from titled city_list and let users know by printing "Cities to choose from: [city_list]"
+
+Redid Problem 2:
+A) Used markdown to write 'Problem 2:'
+  Printed informative sentence to users asking them to look at the following list of cities and choose two to travel between
+  Created and printed list of cities given (part C but makes more sense to have the list on the top)
+B) Created two inputs, start_city and target_city, and printed a statement asking users to input their chosen
+  start city from the list in the first input box and their chosen destination city in the next input box and hit enter.
+C) Made list city_list with provided cities and printed it out in part A (made more sense to show the list before asking them to choose)
+D) Used if function to check if cities that were input were in the list, if they did not match created an error statement letting
+  users know that the city they chose was not on the list and asking them to choose one from the list.
+E) Tested code by inputting Paris as a start city and Orlando as the destination city. When the error statement popped up for
+  Paris not being in the list I inputted new start city, Atlanta. Code then gave statement confirming that user has chosen
+  to travel from Atlanta to Orlando. Took a screenshot of test and renamed appropriately as well as moved it to Midterm folder.
+
+Problem 3:
+A) Used markdown to write 'Problem 3:'
+  Downloaded file distances_midterm.dat and moved it into NUMCOMP\Handin\Midterm Folder
+  Read data into notebook as travel_data using function nploadtxt. and disregarding the comments (#)
+B) Used for loops to scan city_list and find the index of start_city and target_city. Printed indexes
+C) Found the distance between the start and target city by slicing travel_data using found indexes
+  Printed informative statement letting the user know how many miles they will have to travel between their chosen cities.
+D) Used 3 different equations to figure out the days, hours, and minutes it would take the user to travel between chosen cities
+  and printed an informative statement letting them know how long in would take.
+E) Tested program by inputting start city: Tampa and target city: orlando. Got travel time as 1hr and 7min (Accurate)
+F) Using everything I have coded so far in the program, I created a function called "Navigation" that uses the inputs (start_city, target_city)
+  and gives the user an informative statement with the distance between the cities as well as the time it takes to get there (assuming an average speed of 75mph).
+  Created an appropriate docstring and tested function out using start_city: Atlanta and target_city: Miami
+  Printed an informative statement with correct values
+
+Problem 4:
+A) Copied navigation function that was created in problem 3f and made changes to add in a pitstop. Named new function nav_pitstop
+  The inputs are now (start_city, pitstop_city, target_city)
+  Ran it for (Boston, Denver, Sacramento), returned an informative sentence with proper values
+B) Asked users to input a starting city, pitstop city, and target city in input boxes from given list.
+C) Called on nav_pitstop function to give them the distance between start and pitstop city as well as time to get there and pitstop city to target city with the time as well (all in an informative sentence)
+  Imported math to make code that takes the miles between cities and based on a 24.9mpg car that holds 16 gallons calculates how many stops for gas is needed and rounds up.
+  Printed an informative statement letting users know how many stops they will have to make on each leg of their trip.
+D) Created code to calculate the total price of gas they will use for their trip and printed an informative statement.
+
+Problem 5:
+A) Asked user to input a start and destination city
+B) 1.
+
+Problem 6:
+Saved Jupyter notebook in my handin/Midterm Folder
+Commited to Github by opening Github Desktop and selecting Midterm folder and typing 'Midterm Commit' before commiting and clicking fetch origin to push to github
+Will save log and copy to Midterm folder
+Will right-click on Midterm folder and select Send to < Compressed (zip) folder
+Will turn in on Webcourses
