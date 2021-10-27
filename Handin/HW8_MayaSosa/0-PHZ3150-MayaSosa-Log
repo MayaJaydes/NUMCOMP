@@ -617,47 +617,8 @@ Changed color and linestyle of the line of my predicted values and the line of r
 Problem 5:
 Saved Jupyter notebook in my handin/HW8_MayaSosa Folder
 Commited to Github by opening Github Desktop and selecting HW8_MayaSosa folder and typing 'HW8 Final Commit' before commiting and clicking fetch origin to push to github
-Will save log and copy to HW8_MayaSosa folder
+Will save log and copy to HW7_MayaSosa folder
 Will right-click on HW8_MayaSosa folder and select Send to < Compressed (zip) folder
 Will turn in on Webcourses
 
 *****OUT Oct 19 00:00:00 EST 2021
-
-*****IN Oct 23 07:40:00 EST 2021
-
-Start HW 9
-
-Problem 1:
-Files > Downloads\NUMCOMP\Handin > New folder ; Renamed folder 'HW9_MayaSosa'
-Opened Jupyter Notebooks (Windows start > Jupyter Notebook)
-Made new notebook in Downloads\NUMCOMP\Handin\HW9_MayaSosa and renamed it 'HW9_Maya'
-Used markdown to write name, homework number, and date due
-Used markdown to write 'Problem 1:'
-Imported numpy as np
-Saved and pushed to Github (will do regularly)
-
-Problem 2:
-a) Created numpy array called 'sports' containing the given average distance per sport
-Mapped each athlete to their ID number and created array 'athletes_times' the contains each participant's ID number and their average speed per sport (array shape = (6,4))
-b) Used def to create function 'triathlon_times' with an appropriate docstring that takes the two arrays as inputs and returns in an informative statement which athlete will finish first and which will finish last plus their times in hours.
-c) Created dictionary 'sports' and dictionary 'athletes_times' using same values previously given.
-d) Used def to create new function 'triathalon_time_dict' with an appropriate docstring that takes the two dictionaries as inputs and returns in an informative statement the name of the athlete who will finish first and the name of who will finish last plus their times in hours.
-Ran both functions and recieved an appropriate output for both
-
-Problem 3:
-a) Chose recent problem from Calculus III (MAC2313) and stated the problem as well as the solution in the notebook.
-b) Used NumPy math and conditional statements to code my problem and ran it, which resulted in the correct output.
-Created 3d graph to plot the HW problem, in which you could see that the solution was correct
-
-Problem 4:
-Moved to next week's HW
-
-Problem 5:
-Saved Jupyter notebook in my handin/HW9_MayaSosa Folder
-Commited to Github by opening Github Desktop and selecting HW9_MayaSosa folder and typing 'HW9 Final Commit' before commiting and clicking fetch origin to push to github
-(pls don't take points off- rubric says screenshot OR log description)
-Will save log and copy to HW9_MayaSosa folder
-Will right-click on HW9_MayaSosa folder and select Send to < Compressed (zip) folder
-Will turn in on Webcourses
-
-*****OUT OCT 25 22:09:45 EST 2021
